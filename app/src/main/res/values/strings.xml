@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CellReports</string>
+    <string name="marcaSamsung" translatable="false">Samsung</string>
+    <string name="marcaHuawei" translatable="false">Huawei</string>
+    <string name="marcaApple" translatable="false">Apple</string>
+    <string name="marcaNokia" translatable="false">Nokia</string>
+    <string-array name="marcas">
+        <item>@string/marcaSamsung</item>
+        <item>@string/marcaApple</item>
+        <item>@string/marcaHuawei</item>
+        <item>@string/marcaNokia</item>
+    </string-array>
+    <string name="colorNegro">Black</string>
+    <string name="colorBlanco">White</string>
+    <string-array name="colores">
+        <item>@string/colorNegro</item>
+        <item>@string/colorBlanco</item>
+    </string-array>
+    <string name="SOAndroid" translatable="false">Android</string>
+    <string name="SOiOS" translatable="false">iOS</string>
+    <string name="SOWinPhone" translatable="false">Windows Phone</string>
+    <string-array name="sistemasOp">
+        <item>@string/SOAndroid</item>
+        <item>@string/SOWinPhone</item>
+    </string-array>
+    <string name="marca">Brand</string>
+    <string name="color">Color</string>
+    <string name="SO">OS</string>
+    <string name="sistOp">Operating System</string>
+    <string name="nombre">Cellphone name</string>
+    <string name="precio">Price</string>
+    <string name="verTodos">[View All]</string>
+    <string name="filtroHuawei">Most cheap White Huawei</string>
+    <string name="filtroNokia">Nokia\'s Average Price</string>
+    <string name="filtroSam">Samsung Black Android</string>
+    <string-array name="filtros">
+        <item>@string/verTodos</item>
+        <item>@string/filtroHuawei</item>
+        <item>@string/filtroNokia</item>
+        <item>@string/filtroSam</item>
+    </string-array>
+    <string name="filtrarPor">Filtrar por</string>
+    <string name="msjProm">Samsung negro con Android</string>
+    <string name="tituloAgregar">Add new Cellphone</string>
+    <string name="seleccione">[Pick one Item]</string>
+    <string name="agregar">Save</string>
+    <string name="ram">RAM Amount</string>
+</resources>

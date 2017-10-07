@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CeluReportes</string>
+    <string name="SO">SO</string>
+    <string name="color">Color</string>
+    <string name="colorBlanco">Blanco</string>
+    <string name="colorNegro">Negro</string>
+    <string name="filtrarPor">Filtrar por</string>
+    <string name="filtroHuawei">Huawei blanco más barato</string>
+    <string name="filtroNokia">Precio Promedio Nokia</string>
+    <string name="filtroSam">Samsung negro con Android</string>
+    <string name="marca">Marca</string>
+    <string name="msjProm">El promedio de precio de los celulares Nokia es</string>
+    <string name="nombre">Nombre del Celular</string>
+    <string name="precio">Precio</string>
+    <string name="sistOp">Sistema Operativo</string>
+    <string name="verTodos">[Ver Todos]</string>
+    <string name="tituloAgregar">Agregar Celular</string>
+    <string name="seleccione">[Seleccione]</string>
+    <string name="agregar">Guardar</string>
+    <string name="ram">Cantidad de RAM</string>
+</resources>
