@@ -39,10 +39,18 @@
         <item>@string/filtroNokia</item>
         <item>@string/filtroSam</item>
     </string-array>
-    <string name="filtrarPor">Filtrar por</string>
-    <string name="msjProm">Samsung negro con Android</string>
+    <string name="filtrarPor">Filter By</string>
+    <string name="msjProm">Nokia\'s cellphones average price is</string>
     <string name="tituloAgregar">Add new Cellphone</string>
     <string name="seleccione">[Pick one Item]</string>
     <string name="agregar">Save</string>
-    <string name="ram">RAM Amount</string>
+    <string name="ram" translatable="false">RAM</string>
+    <string name="ram1">RAM Amount</string>
+    <string name="errNombre">Cellphone name is required</string>
+    <string name="errMarca">You must pick a brand</string>
+    <string name="errSO">Please pick a OS</string>
+    <string name="errColor">Cellphone color is required</string>
+    <string name="errRAM">Please input RAM amount</string>
+    <string name="errPrecio">Price is required</string>
+    <string name="msjAgregar">Cellphone Added</string>
 </resources>

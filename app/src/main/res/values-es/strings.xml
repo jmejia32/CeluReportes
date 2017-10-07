@@ -18,5 +18,12 @@
     <string name="tituloAgregar">Agregar Celular</string>
     <string name="seleccione">[Seleccione]</string>
     <string name="agregar">Guardar</string>
-    <string name="ram">Cantidad de RAM</string>
+    <string name="ram1">Cantidad de RAM</string>
+    <string name="errNombre">Se requiere el nombre del celular</string>
+    <string name="errMarca">Debe elegir una marca</string>
+    <string name="errSO">Debe elegir un sistema operativo</string>
+    <string name="errColor">Elija un color para el celular</string>
+    <string name="errPrecio">Se requiere el Precio del celular</string>
+    <string name="errRAM">Digite la cantidad de RAM</string>
+    <string name="msjAgregar">Celular Registrado</string>
 </resources>

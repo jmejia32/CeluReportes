@@ -77,29 +77,29 @@ public class Agregar extends AppCompatActivity {
 
     private boolean valido() {
         if (etNombre.getText().toString().isEmpty()) {
-            etNombre.setError("a");
+            etNombre.setError(res.getString(R.string.errNombre));
             etNombre.requestFocus();
             return false;
         }
         if (spMarca.getSelectedItemPosition() == 0) {
-            setErrorSpinner(spMarca, "c");
+            setErrorSpinner(spMarca, res.getString(R.string.errMarca));
             return false;
         }
         if (spSO.getSelectedItemPosition() == 0) {
-            setErrorSpinner(spSO, "d");
+            setErrorSpinner(spSO, res.getString(R.string.errSO));
             return false;
         }
         if (spColor.getSelectedItemPosition() == 0) {
-            setErrorSpinner(spColor, "e");
-            return false;
-        }
-        if (etPrecio.getText().toString().isEmpty()) {
-            etPrecio.setError("b");
-            etPrecio.requestFocus();
+            setErrorSpinner(spColor, res.getString(R.string.errColor));
             return false;
         }
         if (etRAM.getText().toString().isEmpty()) {
-            etPrecio.setError("f");
+            etRAM.setError(res.getString(R.string.errRAM));
+            etRAM.requestFocus();
+            return false;
+        }
+        if (etPrecio.getText().toString().isEmpty()) {
+            etPrecio.setError(res.getString(R.string.errPrecio));
             etPrecio.requestFocus();
             return false;
         }
@@ -110,9 +110,10 @@ public class Agregar extends AppCompatActivity {
         View v = s.getSelectedView();
         if (v != null) {
             TextView txt = (TextView) v;
-            txt.setError(err);
+            txt.setError("1");
             spMarca.requestFocus();
         }
+        Toast.makeText(this, err, Toast.LENGTH_LONG).show();
     }
 
     public void agregar(View v) {
@@ -127,7 +128,7 @@ public class Agregar extends AppCompatActivity {
             ram = Integer.parseInt(etRAM.getText().toString());
             Celular c = new Celular(nomb, marca, so, color, precio, ram);
             c.guardar();
-            Toast.makeText(this, "mensaje", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, res.getString(R.string.msjAgregar), Toast.LENGTH_LONG).show();
             onBackPressed();
         }
     }

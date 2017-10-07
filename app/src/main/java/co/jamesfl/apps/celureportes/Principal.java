@@ -78,23 +78,27 @@ public class Principal extends AppCompatActivity {
             TextView tvSO = new TextView(this);
             TextView tvClr = new TextView(this);
             TextView tvPrec = new TextView(this);
+            TextView tvRam = new TextView(this);
 
             tvMarca.setGravity(Gravity.CENTER);
             tvSO.setGravity(Gravity.CENTER);
             tvClr.setGravity(Gravity.CENTER);
             tvPrec.setGravity(Gravity.RIGHT);
+            tvRam.setGravity(Gravity.CENTER);
 
             tvNomb.setText(c.getNombre());
             tvMarca.setText(c.getMarca());
             tvSO.setText(c.getSistOp());
             tvClr.setText(colores[c.getColor()]);
             tvPrec.setText(""+c.getPrecio());
+            tvRam.setText(c.getRam()+ " GB");
 
             fila.addView(tvNomb);
             fila.addView(tvMarca);
             fila.addView(tvSO);
             fila.addView(tvClr);
             fila.addView(tvPrec);
+            fila.addView(tvRam);
             tbl.addView(fila);
         }
     }
